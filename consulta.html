@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    
+    <div id = 'logo'><img src="" alt="" srcset=""> </div>
+    <h1 id='titulo'>Consulta de Cadastros</h1>
+    <form method="get" action="consulta.php">
+        <fieldset class ='geral'>
+        <p>Nome: <input class = 'sombra' type="text" size ="37px" size = '50' min="5" maxlength="50" name="nnome" id="inome" placeholder="Nome Completo"></p>
+        <p>Nome da mãe: <input class = 'sombra' type="text" size="25px" name="nmae" id="imae" placeholder="Nome da Mãe"></p>
+        <p>Data de Nascimento: <input class = 'sombra'type="date"  name="ndn" id="idn"></p>
+        <p>Sexo: <input class= 'semsombra' type="radio" name="nsexo" id="im" value ="Masculino"> <label for="im">Masculino</label>
+            <input type="radio" name="nsexo" id="if" value ="Feminino"> <label for="if">Feminino</label> </p>
+        <p>Rua/AV: <input class = 'sombra'type="text" size="22px" name="nrua" id="irua" placeholder="Nome da rua/AV">  Nº: <input class = 'sombra' type="number" size="5px" name="nnumero" id="inumero" min="1" max="10000" placeholder="Número"></p>
+        <p>RG: <input class = 'sombra'type="text" size="29px" name="ncns" id="icns" placeholder="Somente os números"></p>
+        <p>CPF: <input class = 'sombra'type="text" size="40px" name="ncpf" id="icpf" placeholder="Somente os números"></p>
+        </fieldset>
+    <p><input  id = 'botao' type="submit" value="Consultar" id = "iconnsultar" > <a href="acessos.html"><input  id = 'botao' type="button" value="Voltar"></a></p>
+    <div id="confirmar"></div>
+    <p><a href="index.html"><input  id = 'botao' type="button" value="Sair"></a></p>
+    <!--<div class='copy'>&copy; Rediner Alves Vinhal</div>-->
+
+</form>
+
+</body>
+
+</html>

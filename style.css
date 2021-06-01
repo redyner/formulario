@@ -1,0 +1,96 @@
+table{
+  margin: 0px auto;
+  border-color: black;
+}
+
+div#margem{
+  margin-top: 20%;
+}
+
+h1 {
+  font-family: sans-serif;
+    color: rgb(64, 0, 0);
+    text-align: center;
+  }
+
+h2 {
+      font-family: sans-serif;
+        color: white;
+        text-align: center;
+  }
+
+div.copy { 
+  font-family: sans-serif;
+  color: white;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center 
+}
+
+body {
+    background-image: url('fundo1.jpg');
+    background-size:cover;
+}
+
+  
+p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  input.sombra{
+    
+    text-align: center;
+    margin-top: 0.5%;
+    padding:  0.5em;
+    border-radius: 5px;
+    border: 1px black;
+    box-shadow: 2px 2px 2px rgb(50, 50, 50);
+    
+  }
+
+  input#botao, button#botao{
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 0, 43);
+    text-align: center;
+    margin-top: 0.5%;
+    padding:  0.5em;
+    border-radius: 5px;
+    border: 1px black;
+    box-shadow: 2px 2px 2px rgb(50, 50, 50);
+    
+  }
+
+  
+
+  fieldset#busca{
+   margin: 0px auto;
+   background-color:rgb(64, 0, 0);
+   border-radius: 5px;
+  }
+
+  fieldset.geral{
+    width: 75%; 
+    margin: 0px auto;
+    background-color:rgb(64, 0, 0);
+    border-radius: 5px;
+   }
+
+   span {cursor:pointer; }
+   .number{
+     margin:100px;
+   }
+   .minus, .plus{
+     width:20px;
+     height:20px;
+     background:#f2f2f2;
+     border-radius:4px;
+     padding:8px 5px 8px 5px;
+     border:1px solid #ddd;
+     display: inline-block;
+     vertical-align: middle;
+     text-align: center;
+   }

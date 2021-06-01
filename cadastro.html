@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Cadastro</title>
+</head>
+<link rel='stylesheet' href='style.css'>
+
+<body>
+
+    <div id = 'logo'><img src='' alt='' srcset=''> </div>
+    <h1 id = 'titulo'>Cadastro</h1>
+    <form method='get' action='cadastro.php'>
+    <fieldset class ='geral'>
+        <h2>Dados pessoais</h2>
+    <p>Nome: <input class = 'sombra' type='text' size ='40px' size = '50' min='5' maxlength='50' name='nnome' id='inome' placeholder='Nome Completo' required></p>
+    <p>Mãe: <input class = 'sombra' type='text' size='40px' name='nmae' id='imae' placeholder='Nome da Mãe' required></p>
+    <p>Data de Nascimento: <input class = 'sombra'type='date'  name='ndn' id='idn' required></p>
+    <p>Sexo: <input class= 'semsombra' type='radio' name='nsexo' id='im' value ='Masculino' checked> <label for='im'>Masculino</label>
+        <input type='radio' name='nsexo' id='if' value ='Feminino'> <label for='if'>Feminino</label>  </p>
+    </fieldset>
+    <fieldset class ='geral'>
+        <h2>Contato</h2>
+    <p>Rua/AV: <input class = 'sombra'type='text' size='40px' name='nrua' id='irua' placeholder='Nome da rua/AV'> Nº: <input class = 'sombra' type='number' size='40px' name='nnumero' id='inumero' min='1' max='10000' placeholder='Número'></p>
+    <p>Telefone: <input class = 'sombra'type='tel' size='40px' name='ntel' id='itel' placeholder='(XX) 9XXXX-XXXX'></p>
+    </fieldset>
+    <fieldset class ='geral'>
+        <h2>Documentos</h2>
+    <p>RG: <input class = 'sombra'type='text' size='40px' name='ncns' id='icns' placeholder='Somente os números'></p>
+    <p>CPF: <input class = 'sombra'type='text' size='40px' name='ncpf' id='icpf' placeholder='Somente os números'></p>
+    </fieldset>
+    <fieldset class ='geral'>
+        <h2>Acesso</h2>
+    <p>Login: <input class = 'sombra'type='text' size='40px' name='nlogin' id='ilogin' placeholder='Login' required></p>
+    <p>Senha: <input class = 'sombra'type='password' size='40px' name='nsenha1' id='isenha' placeholder='Senha1' required></p>
+    <p>Senha: <input class = 'sombra'type='password' size='40px' name='nsenha2' id='isenha' placeholder='Senha2' required></p>
+    </fieldset>
+    </fieldset>
+    <p><input id = 'botao' type='submit' value='Cadastrar' id = 'icadastrar' > <a href='acessos.html'><input id = 'botao' type='button' value='Voltar'></a></p>
+    <p><a href='index.html'><input  id = 'botao' type='button' value='Sair'></a></p>
+    <div id='confirmar'></div>
+    <!-- <div class='copy'>&copy; Rediner Alves Vinhal</div> -->
+</form>
+
+</body>
+
+</html>
